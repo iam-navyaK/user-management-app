@@ -15,7 +15,7 @@ cloudinary.config({
 let clStorage=new CloudinaryStorage({
     cloudinary:cloudinary,
     params:{
-        folder:"vnr2023",
+        folder:"ecejntucej2024",
         public_id:(request,file)=>file.fieldname+"-"+Date.now()
     }
 
